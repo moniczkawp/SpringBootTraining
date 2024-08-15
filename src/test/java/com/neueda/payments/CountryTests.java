@@ -60,7 +60,7 @@ public class CountryTests {
         Payment p3 = new Payment();
         p3.setCountry("USA");
 
-        Mockito.when(paymentsRepository.findAll()).thenReturn(List.of(p1,p2,p3)));
+        Mockito.when(paymentsRepository.findAll()).thenReturn(List.of(p1,p2,p3));
     }
 
     @Test
